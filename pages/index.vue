@@ -17,12 +17,12 @@
         <div>
           <p class="title">Color Blind</p>
           <select class="cord-optoin">
-            <option>Gray</option>
-            <option>White</option>
+            <option >White</option>
+            <option >Gray</option>
           </select>
         </div>
         <div>
-          <p style="margin-top:8px" class="title">Color / tape</p>
+          <p style="margin-top:8px" class="title">Cord / tape</p>
           <select class="color-optoin">
             <option>Cord</option>
             <option>Tape White</option>
@@ -83,6 +83,15 @@ export default {
   padding: 4.5px 9px;
   font-size: 18px;
   line-height: 28px;
+}
+.cord-optoin:focus {
+  outline: none;
+}
+.color-optoin:focus {
+  outline: none;
+}
+.tessal-optoin:focus {
+  outline: none;
 }
 .title {
   margin-bottom: 1rem;
